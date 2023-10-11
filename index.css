@@ -36,25 +36,97 @@ body {
   p {
     color: var(--text);
     font-size: 3vh;
-	margin: 0 0 12px 0;
+	  margin: 0 0 12px 0;
   }
 
-.header {
-	/* top | right | bottom | left */
-	margin: 2.5% 10% 0% 15%;
-	border-bottom: solid;
+.img {
+    /* top | right | bottom | left */
+    margin: 0% 0% 0% 0%;
+    max-width:15%;  
+    height: auto;
+}
+
+img#logo {
+    max-width:50%;  
+    height: auto;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #b5bfff;
+    border-bottom: solid;
+    /* position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    z-index: 1; */
+}
+
+.navbar a {
+  float: right;
+  color: var(--text);
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.logo {
+  float: left;
+  text-align: center;
+  padding: 14px 14px;
+  counter-reset: none;
+  color: var(--text);
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+.home {
+  float: center;
+  text-align: center;
+  text-decoration: none;
 }
 
 /* Style the content */
 .content {
 	position: relative;
 	/* top | right | bottom | left */
-	margin: 0% 10% 5% 15%;
+	margin: 0% 0% 5% 0%;
+}
+
+.about {
+  float: center;
+  text-align: center;  
+}
+
+.about p {
+  float: center;
+  text-align: left;
+  /* top | right | bottom | left */
+  margin: 0% 25% 0% 25%;  
+}
+
+.team {
+  float: center;
+  text-align: center;
+}
+
+.team p {
+  float: center;
+  text-align: left;
+  /* top | right | bottom | left */
+  margin: 0% 25% 0% 25%;  
+}
+
+.contact {
+  float: center;
+  text-align: center;
 }
 
 .footer {
 	/* top | right | bottom | left */
-	margin: 0% 10% 0% 15%;
+	margin: 0% 0% 0% 0%;
+  text-align: center;
 	border-top: solid;
 }
 
