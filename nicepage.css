@@ -1183,7 +1183,7 @@ a {
   -webkit-text-decoration-skip: objects;
 }
 .u-image.u-logo {
-  display: table;
+  /* display: table; */
   white-space: nowrap;
 }
 .u-image.u-logo img {
