@@ -86,7 +86,7 @@ nav {
   text-align: left;
   /* background-color: #f3f4f6; */
   /* top | right | bottom | left */
-  margin: 0% 65% 5% 5%;
+  margin: 0% 55% 5% 5%;
   background-color: var(--background);
   background-color: rgba(255,255,255,0.95);
   border-radius: 10px;
@@ -94,8 +94,9 @@ nav {
 
 .heading h2 {
   /* top | right | bottom | left */
-  padding: 5% 5% 5% 5%;
+  padding: 15px;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 
@@ -104,7 +105,7 @@ nav {
   /* float: center; */
   text-align: center;
   /* top | right | bottom | left */
-  margin: 5% 5% 5% 65%; 
+  margin: 5% 5% 5% 60%; 
   background-color: var(--background);
   background-color: rgba(255,255,255,0.95);
   border-radius: 10px;
@@ -165,6 +166,7 @@ nav {
 
 .blog {
   display: flex;
+  /* flex-wrap: wrap; */
   flex-direction: column;
   align-items: center;
   /* top | right | bottom | left */
@@ -172,6 +174,7 @@ nav {
   background-color: var(--background);
   background-color: rgba(255,255,255,0.95);
   border-radius: 10px;
+  /* width: 80%; */
 }
 
 .blog h2 {
@@ -205,13 +208,44 @@ nav {
   margin: 0px 10px 0px 10px; 
 }
 
+@media (max-width: 920px) {
+  .heading {
+    /* top | right | bottom | left */
+    margin: 0% 5% 5% 5%;
+  }
+  .team {
+    /* top | right | bottom | left */
+    margin: 5% 5% 5% 5%; 
+  }
+  .blog {
+    margin: 2% auto;
+    width: 90%; /* Adjust as needed */
+  }
+  .blog-list {
+    margin: 2% auto;
+    width: 90%; /* Adjust as needed */
+    gap: 2px;
+  }
+  .blog-list li {
+      margin: 2% auto;
+      width: 90%; /* Adjust as needed */
+  }
+  .blog-list a {
+    padding: 5px;
+    font-size: 65%;
+  }
+  .post-date {
+    font-size: 70%;
+  }
+}
+
 .blog-list a {
   text-decoration: none;
   padding: 10px;
 }
 
 .post-date {
-  font-size: 14px;
+  /* font-size: 14px; */
   color: #666;
   /* top | right | bottom | left */
   margin: 0px 10px 5px 10px; 
