@@ -116,6 +116,38 @@ nav {
   padding: 5% 5% 0% 5%;;
 }
 
+.sponsors {
+  display: inline-block;
+  /* float: center; */
+  text-align: center;
+  /* top | right | bottom | left */
+  margin: 5% 5% 5% 60%; 
+  background-color: var(--background);
+  background-color: rgba(255,255,255,0.95);
+  border-radius: 10px;
+}
+
+.sponsors h2 {
+  /* top | right | bottom | left */
+  padding: 5% 5% 0% 5%;;
+}
+
+.sponsor-item {
+  text-align: center; /* Center the text under the image */
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.sponsor-item img {
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+  border: #000000 solid 1px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .image-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -153,7 +185,7 @@ nav {
   /* top | right | bottom | left */
   margin: 0% 15% 5% 15%; 
   background-color: var(--background);
-  background-color: rgba(255,255,255,0.95);
+  background-color: rgba(255,255,255,1);
   border-radius: 10px;
 }
 
@@ -172,7 +204,7 @@ nav {
   /* top | right | bottom | left */
   margin: 0% 25% 5% 25%; 
   background-color: var(--background);
-  background-color: rgba(255,255,255,0.95);
+  background-color: rgba(255,255,255,1);
   border-radius: 10px;
   /* width: 80%; */
 }
@@ -186,7 +218,9 @@ nav {
 
 .blog p {
   /* top | right | bottom | left */
-  margin: 10px 0% 10px 0%;  
+  margin: 10px 10px 10px 10px;  
+  text-align: left;
+  font-size: 18px;
 }
 
 .blog-list {
@@ -197,6 +231,16 @@ nav {
   padding: 0;
   /* top | right | bottom | left */
   margin: 10px 0% 5% 0%; 
+}
+
+.blog img {
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+  border: #000000 solid 1px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .blog-list li {
@@ -214,6 +258,10 @@ nav {
     margin: 0% 5% 5% 5%;
   }
   .team {
+    /* top | right | bottom | left */
+    margin: 5% 5% 5% 5%; 
+  }
+  .sponsors {
     /* top | right | bottom | left */
     margin: 5% 5% 5% 5%; 
   }
