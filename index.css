@@ -86,7 +86,7 @@ nav {
   text-align: left;
   /* background-color: #f3f4f6; */
   /* top | right | bottom | left */
-  margin: 0% 55% 5% 5%;
+  margin: 0% 15% 5% 15%;
   background-color: var(--background);
   background-color: rgba(255,255,255,0.95);
   border-radius: 10px;
@@ -105,7 +105,7 @@ nav {
   /* float: center; */
   text-align: center;
   /* top | right | bottom | left */
-  margin: 5% 5% 5% 60%; 
+  margin: 0% 5% 5% 5%; 
   background-color: var(--background);
   background-color: rgba(255,255,255,0.95);
   border-radius: 10px;
@@ -121,7 +121,7 @@ nav {
   /* float: center; */
   text-align: center;
   /* top | right | bottom | left */
-  margin: 5% 5% 5% 60%; 
+  margin: 0% 35% 5% 35%; 
   background-color: var(--background);
   background-color: rgba(255,255,255,0.95);
   border-radius: 10px;
@@ -134,8 +134,8 @@ nav {
 
 .sponsor-item {
   text-align: center; /* Center the text under the image */
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sponsor-item img {
@@ -299,6 +299,8 @@ nav {
   margin: 0px 10px 5px 10px; 
   padding: 0px 0px 5px 0px; 
 }
+
+
 
 a:hover {
 	/*background: radial-gradient(#858e96, #60696b);*/
