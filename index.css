@@ -43,8 +43,16 @@ ul {
   overflow: hidden;
 }
 
-li {
+nav li {
   float: right;
+}
+
+.about li {
+  text-align: left;
+  /* top | right | bottom | left */
+  margin: 0% 0% 1% 0%;
+  /* padding: 0% 0% 1% 0%; */
+
 }
 
 li a {
@@ -82,11 +90,12 @@ nav {
 }
 
 .heading {
-  float: left;
+  /* float: left; */
   text-align: left;
+  display: inline-block;
   /* background-color: #f3f4f6; */
   /* top | right | bottom | left */
-  margin: 0% 15% 5% 15%;
+  margin: 0% 15% 35% 15%;
   background-color: var(--background);
   background-color: rgba(255,255,255,0.95);
   border-radius: 10px;
@@ -105,15 +114,16 @@ nav {
   /* float: center; */
   text-align: center;
   /* top | right | bottom | left */
-  margin: 0% 5% 5% 5%; 
+  margin: 0% 30% 5% 30%; 
   background-color: var(--background);
   background-color: rgba(255,255,255,0.95);
   border-radius: 10px;
+  padding: 0;
 }
 
 .team h2 {
   /* top | right | bottom | left */
-  padding: 5% 5% 0% 5%;;
+  padding: 0% 0% 0% 0%;;
 }
 
 .sponsors {
@@ -121,7 +131,7 @@ nav {
   /* float: center; */
   text-align: center;
   /* top | right | bottom | left */
-  margin: 0% 35% 5% 35%; 
+  margin: 0% 30% 5% 30%; 
   background-color: var(--background);
   background-color: rgba(255,255,255,0.95);
   border-radius: 10px;
@@ -129,13 +139,14 @@ nav {
 
 .sponsors h2 {
   /* top | right | bottom | left */
-  padding: 5% 5% 0% 5%;;
+  padding: 0% 0% 0% 0%;;
 }
 
 .sponsor-item {
   text-align: center; /* Center the text under the image */
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 5%;
 }
 
 .sponsor-item img {
@@ -151,13 +162,14 @@ nav {
 .image-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
+  gap: 5px;
   /* top | right | bottom | left */
-  padding: 0% 5% 10% 5%;
+  padding: 0% 5% 5% 5%;
 }
 
 .image-item {
   text-align: center; /* Center the text under the image */
+  margin: 0% 0% 5% 0%;
 }
 
 .image-item p {
@@ -173,7 +185,7 @@ nav {
 }
 
 .image-grid img {
-  width: 100%;
+  width: 50%;
   height: auto;
   border-radius: 10px;
 }
@@ -183,7 +195,8 @@ nav {
   display: inline-block;
   text-align: center;
   /* top | right | bottom | left */
-  margin: 0% 15% 5% 15%; 
+  margin: 0% 20% 5% 20%; 
+  padding: 0% 5% 5% 5%;
   background-color: var(--background);
   background-color: rgba(255,255,255,1);
   border-radius: 10px;
