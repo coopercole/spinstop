@@ -268,13 +268,17 @@ nav {
 @media (max-width: 920px) {
   .heading {
     /* top | right | bottom | left */
-    margin: 0% 5% 5% 5%;
+    margin: 0% 5% 85% 5%;
   }
   .team {
     /* top | right | bottom | left */
     margin: 5% 5% 5% 5%; 
   }
   .sponsors {
+    /* top | right | bottom | left */
+    margin: 5% 5% 5% 5%; 
+  }
+  .about {
     /* top | right | bottom | left */
     margin: 5% 5% 5% 5%; 
   }
