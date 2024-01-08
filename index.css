@@ -144,19 +144,35 @@ nav {
 
 .sponsor-item {
   text-align: center; /* Center the text under the image */
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 2.5%;
+  display: block;
 }
 
-.sponsor-item img {
+/* .sponsor-item img {
   width: 50%;
   height: auto;
-  border-radius: 10px;
-  border: #000000 solid 1px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+} */
+
+.brent {
+  width: 70%;
+  height: auto;
+}
+
+.irsi {
+  width: 40%;
+  height: auto;
+}
+
+.jergens {
+  width: 30%;
+  height: auto;
+}
+
+.fifteenseventeen {
+  width: 50%;
+  height: auto;
 }
 
 .image-grid {
