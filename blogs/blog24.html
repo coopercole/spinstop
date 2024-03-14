@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EKLFLBV1FB"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-EKLFLBV1FB');
+    </script>  
+    <title>SpinStop</title>
+    <link rel="stylesheet" href="../index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <ul>
+            <a href="../index.html"><img class="logo" src="../assets/logo.png" alt="logo"></a>
+            <li><a href="../blog.html">Blog</a></li>
+            <li><a href="../about.html">About</a></li>
+        </ul>
+    </nav>
+    <!-- content -->
+    <div class="content">
+        <div class="blog">
+            <h2>A working ESC! kinda...</h2>
+            <p>March 13, 2024</p>
+            <p>
+                Hello friends,
+                <br><br>
+                We seem to have got our ESC working!
+                <br><br>
+                With the new low voltage rail power source, we got the ESC working again 
+                and we were able to get the motor spinning. :D
+                <br><br>
+                We added our reacation wheel to the motor and it was initially working, but 
+                eventually some capacitors on the ESC blew up. :(
+                <br><br>
+                <video class="blog-video" controls="" loop="" width="640" height="360" style="max-width: 100%; height: auto; margin-top: 16px; display: block; margin-left: auto; margin-right: auto;">
+                    <source src="../assets/spinning.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                This ended up shorting 1/3 of our MOSFETs, so the ESC is officailly dead.
+                <br>
+                We are now using our backup ESC.
+                <br><br>
+                We have a fuse and zener diode to protect our components from serious damage.
+                <br><br>
+                We are also looking to using a smaller reaction wheel that will have a lower MOI to make things easier on our ESC.
+                <br><br>
+                Godspeed,
+                <br><br>
+            </p>
+        </div>
+    </div>
+    <footer>
+        <p>Contact us at wrenchhouse5@gmail.com</p>
+        <p>Made in Canada 🍁</p>
+    </footer>
+</body>
+</html>

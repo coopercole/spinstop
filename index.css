@@ -28,6 +28,15 @@ footer {
     height: auto;
 }
 
+
+.blog-video {
+  /* top | right | bottom | left */
+  margin: 0% 0% 5% 0%;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
 .logo {
     width:128px;
     height:auto;

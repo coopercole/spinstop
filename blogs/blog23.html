@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EKLFLBV1FB"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-EKLFLBV1FB');
+    </script>  
+    <title>SpinStop</title>
+    <link rel="stylesheet" href="../index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <ul>
+            <a href="../index.html"><img class="logo" src="../assets/logo.png" alt="logo"></a>
+            <li><a href="../blog.html">Blog</a></li>
+            <li><a href="../about.html">About</a></li>
+        </ul>
+    </nav>
+    <!-- content -->
+    <div class="content">
+        <div class="blog">
+            <h2>Data Dashboard and Remote ESTOP!</h2>
+            <p>March 10, 2024</p>
+            <p>
+                Hey Sailors,
+                <br><br>
+                We have finished our dashboard and completed the assembly of the remote ESTOP!
+                <br><br>
+                The dashboard is hosted on a raspberry pi and uses MQTT to show us all kinds of data from the sensors, ESC, motor and more. It also has the ability to log all the data to a database.
+                <br><br>
+                <!-- Picture of Dashboard -->
+                <img src="../assets/dashboard.png" alt="dashboard">
+                <br><br>
+                The remote ESTOP also uses MQTT and has a heartbeat signal to ensure that it is always connected to the device, and if it is not, it will automatically cut power to the motor.
+                <br><br>
+                <!-- Picture of Remote ESTOP -->
+                <img src="../assets/remote_estop.jpg" alt="Remote ESTOP">
+                <br><br>
+                Bye Sailors,
+                <br><br>
+            </p>
+        </div>
+    </div>
+    <footer>
+        <p>Contact us at wrenchhouse5@gmail.com</p>
+        <p>Made in Canada 🍁</p>
+    </footer>
+</body>
+</html>
